@@ -1,51 +1,36 @@
 # Flappy Bird Game
 
-This is a simple Flappy Bird game implemented in Python using the Pygame library. The game features detailed graphics and sound effects.
+This is a simple implementation of the popular game "Flappy Bird" using JavaScript and HTML5 Canvas. The game can be played directly in a web browser.
+
+## How to Play
+
+- Press the `SPACE` key to start the game.
+- Press the `SPACE` key to make the bird flap its wings and fly.
+- Avoid the pipes and try to get the highest score possible.
 
 ## Installation
 
 1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/flappy-bird-js.git
+    cd flappy-bird-js
+    ```
 
-```bash
-$ git clone https://github.com/user1234554321/flappy_github_copilot_agent.git
-$ cd flappy_github_copilot_agent
-```
-
-2. Create a virtual environment and activate it:
-
-```bash
-$ python3 -m venv venv
-$ source venv/bin/activate
-```
-
-3. Install the required dependencies:
-
-```bash
-$ pip install -r requirements.txt
-```
-
-4. Run the game:
-
-```bash
-$ python flappy.py
-```
+2. Open the `index.html` file in your web browser to play the game.
 
 ## Files
 
-- `flappy.py`: Main game file.
-- `create_flappy_sounds.py`: Script to create sound files for the game.
-- `create_flappy_objects.py`: Script to create image files for the game.
-- `bird_frame_0.png`, `bird_frame_1.png`, `bird_frame_2.png`: Bird animation frames.
-- `pipe_detailed.png`: Pipe image.
-- `background_detailed.png`: Background image.
-- `flap.wav`, `score.wav`, `hit.wav`: Sound files for the game.
+- `index.html`: The main HTML file that sets up the game canvas and includes the JavaScript file.
+- `flappy.js`: The JavaScript file that contains the game logic.
+- `README.md`: This file, which provides information about the project.
 
-## How to Play
+## Assets
 
-- Press the SPACE key to start the game.
-- Press the SPACE key to make the bird flap its wings and avoid the pipes.
-- The game ends when the bird collides with a pipe.
-- Your score is displayed at the end of the game.
+Make sure to include the following assets in the same directory as the HTML and JavaScript files:
+
+- `bird.png`: The image of the bird.
+- `pipe.png`: The image of the pipes.
+- `background.png`: The background image.
 
 ## License
 
